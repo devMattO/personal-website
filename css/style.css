@@ -1,9 +1,25 @@
 body {
   overflow: hidden;
+  font-family: 'Dosis', sans-serif;
 }
 
 #container{
   display: flex;
+  width: 100%;
+}
+
+#headerDiv{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-content: center;
+}
+
+#header{
+  display: flex;
+  font-size: 6em;
+  width: 80%;
+  justify-content: center;
 }
 
 .holder {
@@ -26,7 +42,7 @@ body {
           transform-origin: bottom center;
 }
 .holder .circle:nth-child(1) {
-  background: black;
+  background: rgb(64,64,64);
   border-bottom: none;
   border-radius: 25px 25px 0 0;
   width: 25px;
@@ -56,7 +72,7 @@ body {
   }
 }
 .holder .circle:nth-child(2) {
-  border: 13px solid green;
+  border: 13px solid rgb(64,64,64);
   border-bottom: none;
   border-radius: 31px 31px 0 0;
   width: 31px;
@@ -86,7 +102,7 @@ body {
   }
 }
 .holder .circle:nth-child(3) {
-  border: 13px solid yellow;
+  border: 13px solid rgb(64,64,64);
   border-bottom: none;
   border-radius: 62px 62px 0 0;
   width: 62px;
@@ -116,7 +132,7 @@ body {
   }
 }
 .holder .circle:nth-child(4) {
-  border: 13px solid red;
+  border: 13px solid rgb(64,64,64);
   border-bottom: none;
   border-radius: 93px 93px 0 0;
   width: 93px;
@@ -146,7 +162,7 @@ body {
   }
 }
 .holder .circle:nth-child(5) {
-  border: 13px solid black;
+  border: 13px solid rgb(112,112,112);
   border-bottom: none;
   border-radius: 124px 124px 0 0;
   width: 124px;
@@ -176,7 +192,7 @@ body {
   }
 }
 .holder .circle:nth-child(6) {
-  border: 13px solid black;
+  border: 13px solid rgb(112,112,112);
   border-bottom: none;
   border-radius: 155px 155px 0 0;
   width: 155px;
@@ -206,7 +222,7 @@ body {
   }
 }
 .holder .circle:nth-child(7) {
-  border: 13px solid black;
+  border: 13px solid rgb(112,112,112);
   border-bottom: none;
   border-radius: 186px 186px 0 0;
   width: 186px;
@@ -236,7 +252,7 @@ body {
   }
 }
 .holder .circle:nth-child(8) {
-  border: 13px solid green;
+  border: 13px solid rgb(112,112,112);
   border-bottom: none;
   border-radius: 217px 217px 0 0;
   width: 217px;
@@ -266,7 +282,7 @@ body {
   }
 }
 .holder .circle:nth-child(9) {
-  border: 13px solid green;
+  border: 13px solid rgb(202,202,202);
   border-bottom: none;
   border-radius: 248px 248px 0 0;
   width: 248px;
@@ -296,7 +312,7 @@ body {
   }
 }
 .holder .circle:nth-child(10) {
-  border: 13px solid green;
+  border: 13px solid rgb(202,202,202);
   border-bottom: none;
   border-radius: 279px 279px 0 0;
   width: 279px;
@@ -326,7 +342,7 @@ body {
   }
 }
 .holder .circle:nth-child(11) {
-  border: 13px solid yellow;
+  border: 13px solid rgb(202,202,202);
   border-bottom: none;
   border-radius: 310px 310px 0 0;
   width: 310px;
@@ -356,7 +372,7 @@ body {
   }
 }
 .holder .circle:nth-child(12) {
-  border: 13px solid yellow;
+  border: 13px solid rgb(202,202,202);
   border-bottom: none;
   border-radius: 341px 341px 0 0;
   width: 341px;
@@ -386,7 +402,7 @@ body {
   }
 }
 .holder .circle:nth-child(13) {
-  border: 13px solid yellow;
+  border: 13px solid rgb(234,234,234);
   border-bottom: none;
   border-radius: 372px 372px 0 0;
   width: 372px;
@@ -416,7 +432,7 @@ body {
   }
 }
 .holder .circle:nth-child(14) {
-  border: 13px solid red;
+  border: 13px solid rgb(234,234,234);
   border-bottom: none;
   border-radius: 403px 403px 0 0;
   width: 403px;
@@ -446,7 +462,7 @@ body {
   }
 }
 .holder .circle:nth-child(15) {
-  border: 13px solid red;
+  border: 13px solid rgb(234,234,234);
   border-bottom: none;
   border-radius: 434px 434px 0 0;
   width: 434px;
@@ -476,7 +492,7 @@ body {
   }
 }
 .holder .circle:nth-child(16) {
-  border: 13px solid red;
+  border: 13px solid rgb(234,234,234);
   border-bottom: none;
   border-radius: 465px 465px 0 0;
   width: 465px;
