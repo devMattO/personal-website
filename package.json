@@ -25,9 +25,12 @@
   },
   "homepage": "https://github.com/devMattO/personal-website#readme",
   "dependencies": {
+    "express": "4.13.4",
     "react": "^15.3.1",
+    "react-dom": "^0.14.7",
     "react-redux": "^4.4.5",
-    "react-router": "^2.8.1"
+    "react-router": "^2.8.1",
+    "redux": "^3.3.1"
   },
   "devDependencies": {
     "babel": "^6.5.2",
