@@ -1,0 +1,12 @@
+// Resets, Clearfix, etc
+@import 'partials/reset';
+@import 'partials/clearfix';
+
+// Media Query Ranges
+$medium: "only screen and (min-width: 600px)";
+$large: "only screen and (min-width: 900px)";
+$x-large: "only screen and (min-width: 1350px)";
+
+body{
+  background-color: red;
+}
