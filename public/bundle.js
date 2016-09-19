@@ -49,6 +49,7 @@
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(34);
 	var Landing = __webpack_require__(172);
+	var aboutMe = __webpack_require__(236);
 
 	var _require = __webpack_require__(173);
 
@@ -63,7 +64,8 @@
 	    return React.createElement(
 	      Router,
 	      { history: hashHistory },
-	      React.createElement(Route, { path: '/', component: Landing })
+	      React.createElement(Route, { path: '/', component: Landing }),
+	      React.createElement(Route, { path: '/about-me', component: aboutMe })
 	    );
 	  }
 	});
@@ -27435,6 +27437,31 @@
 
 	exports.default = (0, _createRouterHistory2.default)(_createHashHistory2.default);
 	module.exports = exports['default'];
+
+/***/ },
+/* 236 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var React = __webpack_require__(1);
+
+	var AboutMe = React.createClass({
+	  displayName: 'AboutMe',
+	  render: function render() {
+	    return React.createElement(
+	      'div',
+	      { className: 'about-me' },
+	      React.createElement(
+	        'h1',
+	        { className: 'name-header' },
+	        'Matt Olsen'
+	      )
+	    );
+	  }
+	});
+
+	module.exports = AboutMe;
 
 /***/ }
 /******/ ]);
