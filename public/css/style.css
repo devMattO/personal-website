@@ -1,5 +1,62 @@
 body {
-  overflow: hidden;
+  overflow: scroll;
   font-family: 'Dosis', sans-serif;
 }
 
+.app-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-div{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.content-div{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictures-content-div{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics-div{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-name{
+  font-size: 3em;
+}
+
+.cover-image{
+  width: 100%;
+}
+
+.pictures{
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.pictures:hover{
+  opacity: 0.90;
+}
