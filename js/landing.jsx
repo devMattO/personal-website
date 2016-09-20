@@ -11,10 +11,10 @@ const Landing = React.createClass({
         </div>
         <div className='content-div'>
           <h1 className='title'> Matt {'{devmatto}'} Olsen </h1>
-          <Link to='/about-me' className='about-me'>About Me</Link><br />
-          <Link to='/projects' className='projects'>Projects</Link><br />
-          <Link to='/skills' className='skills'>Skills</Link><br />
-          <Link to='/pictures' className='pictures'>Pictures</Link><br />
+          <Link to='/about-me' className='about-me-link'>About Me</Link><br />
+          <Link to='/projects' className='projects-link'>Projects</Link><br />
+          <Link to='/skills' className='skills-link'>Skills</Link><br />
+          <Link to='/pictures' className='pictures-link'>Pictures</Link><br />
         </div>
       </div>
     )

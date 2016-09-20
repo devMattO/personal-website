@@ -60,3 +60,25 @@ body {
 .pictures:hover{
   opacity: 0.90;
 }
+
+.daHeader{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.pictures-link{
+  text-decoration: none;
+}
+
+.about-me-link{
+  text-decoration: none;
+}
+
+.skills-link{
+  text-decoration: none;
+}
+
+.projects-link{
+  text-decoration: none;
+}

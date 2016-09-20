@@ -21520,25 +21520,25 @@
 	        ),
 	        React.createElement(
 	          Link,
-	          { to: '/about-me', className: 'about-me' },
+	          { to: '/about-me', className: 'about-me-link' },
 	          'About Me'
 	        ),
 	        React.createElement('br', null),
 	        React.createElement(
 	          Link,
-	          { to: '/projects', className: 'projects' },
+	          { to: '/projects', className: 'projects-link' },
 	          'Projects'
 	        ),
 	        React.createElement('br', null),
 	        React.createElement(
 	          Link,
-	          { to: '/skills', className: 'skills' },
+	          { to: '/skills', className: 'skills-link' },
 	          'Skills'
 	        ),
 	        React.createElement('br', null),
 	        React.createElement(
 	          Link,
-	          { to: '/pictures', className: 'pictures' },
+	          { to: '/pictures', className: 'pictures-link' },
 	          'Pictures'
 	        ),
 	        React.createElement('br', null)
@@ -21557,12 +21557,50 @@
 
 	var React = __webpack_require__(1);
 
+	var _require = __webpack_require__(174);
+
+	var Link = _require.Link;
+
+
 	var Header = React.createClass({
 	  displayName: 'Header',
 	  render: function render() {
 	    return React.createElement(
 	      'div',
 	      { className: 'header' },
+	      React.createElement(
+	        'div',
+	        { className: 'daHeader' },
+	        React.createElement(
+	          'div',
+	          { className: 'brand' },
+	          'devmatto'
+	        ),
+	        React.createElement(
+	          'div',
+	          { className: 'nav-bar' },
+	          React.createElement(
+	            Link,
+	            { to: '/about-me', className: 'about-me-link' },
+	            'About Me'
+	          ),
+	          React.createElement(
+	            Link,
+	            { to: '/projects', className: 'projects-link' },
+	            'Projects'
+	          ),
+	          React.createElement(
+	            Link,
+	            { to: '/skills', className: 'skills-link' },
+	            'Skills'
+	          ),
+	          React.createElement(
+	            Link,
+	            { to: '/pictures', className: 'pictures-link' },
+	            'Pictures'
+	          )
+	        )
+	      ),
 	      React.createElement('img', { src: './public/images/matt-cover.jpg', className: 'cover-image' })
 	    );
 	  }
