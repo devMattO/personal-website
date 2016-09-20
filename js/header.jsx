@@ -6,7 +6,7 @@ const Header = React.createClass({
     return (
       <div className='header'>
         <div className='daHeader'>
-          <div className='brand'>devmatto</div>
+          <div className='brand'><img src="./public/images/matt-cover.jpg" className='cover-image' />devmatto</div>
           <div className='nav-bar'>
             <Link to='/about-me' className='about-me-link'>About Me</Link>
             <Link to='/projects' className='projects-link'>Projects</Link>
