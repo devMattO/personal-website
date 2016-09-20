@@ -5,6 +5,7 @@ const aboutMe = require('./about-me')
 const projects = require('./projects')
 const skills = require('./skills')
 const pictures = require('./pictures')
+import style from '../scss/styles.scss'
 const { Router, Route, hashHistory } = require('react-router')
 
 const App = React.createClass({
