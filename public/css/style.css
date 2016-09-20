@@ -3,6 +3,7 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+<<<<<<< HEAD
 .app-container{
   display: flex;
   width: 100%;
@@ -82,3 +83,4 @@ body {
 .projects-link{
   text-decoration: none;
 }
+
