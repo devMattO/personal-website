@@ -1,9 +1,8 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
 const Landing = require('./landing')
-const aboutMe = require('./about-me')
-const projects = require('./projects')
-const skills = require('./skills')
+const work = require('./work')
+const techStack = require('./tech-stack')
 const pictures = require('./pictures')
 import style from '../scss/styles.scss'
 const { Router, Route, hashHistory } = require('react-router')
@@ -13,9 +12,8 @@ const App = React.createClass({
     return (
       <Router history={hashHistory}>
         <Route path='/' component={Landing} />
-        <Route path='/about-me' component={aboutMe} />
-        <Route path='/projects' component={projects} />
-        <Route path='/skills' component={skills} />
+        <Route path='/work' component={work} />
+        <Route path='/tech-stack' component={techStack} />
         <Route path='/pictures' component={pictures} />
       </Router>
     )

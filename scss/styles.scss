@@ -7,6 +7,116 @@ $medium: "only screen and (min-width: 600px)";
 $large: "only screen and (min-width: 900px)";
 $x-large: "only screen and (min-width: 1350px)";
 
-body{
-  background-color: red;
+body {
+  overflow: scroll;
+  font-family: 'Dosis', sans-serif;
+}
+
+.app-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-div{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.content-div{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictures-content-div{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics-div{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-name{
+  font-size: 3em;
+}
+
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+
+}
+
+.cover-image{
+  width: 100%;
+}
+
+.pictures{
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.pictures:hover{
+  opacity: 0.90;
+}
+
+.daHeader{
+  display: flex;
+  flex-flow: row wrap;
+  height: 40px;
+}
+
+.pictures-link{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.tech-stack-link{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.work-link{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    text-decoration: underline;
+  }
+
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  width: 20%;
+}
+
+.nav-item{
+
 }
