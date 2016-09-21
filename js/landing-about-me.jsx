@@ -1,16 +1,19 @@
 const React = require('react')
 
-const LAM = React.createClass({
+const LandingAboutMe = React.createClass({
   render () {
     return (
       <div className='LAM-content-div'>
         <h1 className='LAM-header'>Matt Olsen</h1>
+        <h1 className='LAM-header-desc'>Full-Stack JavaScript Developer | Honolulu, HI</h1>
         <div className='LAM-div'>
-          <p className='LAM-text'></p>
+          <p className='LAM-text'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.
+          </p>
         </div>
       </div>
     )
   }
 })
 
-module.exports = LAM
+module.exports = LandingAboutMe

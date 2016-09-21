@@ -6,7 +6,11 @@ const Header = React.createClass({
     return (
       <div className='header'>
         <div className='daHeader'>
-          <div className='brand'><h1 className='brand-header'>devmatto</h1></div>
+          <div className='brand'>
+            <Link to='/' className='header-home-link'>
+              <h1 className='header'>>devmatto</h1>
+            </Link>
+          </div>
           <div className='nav-bar'>
             <div className='nav-item'>
               <Link to='/work' className='work-link'>Work</Link>
@@ -16,6 +20,9 @@ const Header = React.createClass({
             </div>
             <div className='nav-item'>
               <Link to='/pictures' className='pictures-link'>Pictures</Link>
+            </div>
+            <div className='nav-item'>
+              <Link to='/contact' className='contact-link'>Contact</Link>
             </div>
           </div>
         </div>
