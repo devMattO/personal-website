@@ -5,7 +5,7 @@ const { Link } = require('react-router')
 const TechStack = React.createClass({
   render () {
     const techStackInfo = [
-      {logo: './public/images/tech-stack/logo_angular.svg',
+      {logo: './public/images/tech-stack/logo_angular.png',
        urlLink: 'https://angularjs.org/'},
       {logo: './public/images/tech-stack/logo_bash.png',
        urlLink: 'http://ohmyz.sh/'},
@@ -13,7 +13,7 @@ const TechStack = React.createClass({
        urlLink: 'http://getbootstrap.com/'},
       {logo: './public/images/tech-stack/logo_chai.png',
        urlLink: 'http://chaijs.com/'},
-      {logo: './public/images/tech-stack/logo_d3.jpg',
+      {logo: './public/images/tech-stack/logo_d3.svg',
        urlLink: 'https://d3js.org/'},
       {logo: './public/images/tech-stack/logo_es6.svg',
        urlLink: 'http://es6-features.org/'},
@@ -39,7 +39,7 @@ const TechStack = React.createClass({
        urlLink: 'https://nodejs.org/en/'},
       {logo: './public/images/tech-stack/logo_passportjs.svg',
        urlLink: 'http://passportjs.org/'},
-      {logo: './public/images/tech-stack/logo_postgres.svg',
+      {logo: './public/images/tech-stack/logo_postgres.png',
        urlLink: 'https://www.postgresql.org/'},
       {logo: './public/images/tech-stack/logo_react.svg',
        urlLink: 'https://facebook.github.io/react/'},
