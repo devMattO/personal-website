@@ -26,7 +26,29 @@ const TechStack = React.createClass({
       {logo: './public/images/tech-stack/logo_graphQL.svg',
        urlLink: 'http://graphql.org/'},
       {logo: './public/images/tech-stack/logo_gulp.svg',
-       urlLink: 'http://gulpjs.com/'}
+       urlLink: 'http://gulpjs.com/'},
+      {logo: './public/images/tech-stack/logo_html.svg',
+       urlLink: 'https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript'},
+      {logo: './public/images/tech-stack/logo_jquery.svg',
+       urlLink: 'https://jquery.com/'},
+      {logo: './public/images/tech-stack/logo_mocha.svg',
+       urlLink: 'https://mochajs.org/'},
+      {logo: './public/images/tech-stack/logo_mongo.png',
+       urlLink: 'https://www.mongodb.com/'},
+      {logo: './public/images/tech-stack/logo_node.svg',
+       urlLink: 'https://nodejs.org/en/'},
+      {logo: './public/images/tech-stack/logo_passportjs.svg',
+       urlLink: 'http://passportjs.org/'},
+      {logo: './public/images/tech-stack/logo_postgres.svg',
+       urlLink: 'https://www.postgresql.org/'},
+      {logo: './public/images/tech-stack/logo_react.svg',
+       urlLink: 'https://facebook.github.io/react/'},
+      {logo: './public/images/tech-stack/logo_redis.svg',
+       urlLink: 'http://redis.io/'},
+      {logo: './public/images/tech-stack/logo_sass.png',
+       urlLink: 'http://sass-lang.com/'},
+      {logo: './public/images/tech-stack/logo_webpack.svg',
+       urlLink: 'https://webpack.github.io/'}
     ]
     return (
         <div className='techStack-content-div'>
