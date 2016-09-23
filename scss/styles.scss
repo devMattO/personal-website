@@ -176,6 +176,7 @@ body{
   display: flex;
   width: 80%;
   margin-top: 3%;
+  flex-direction: column;
 }
 
 .tech-logos{
@@ -186,7 +187,7 @@ body{
 }
 
 .imgTagLogos{
-  max-width: 100px;
+  width: 100px;
   max-height: 70px;
   margin: 10px;
 }

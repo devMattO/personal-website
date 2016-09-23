@@ -26,7 +26,7 @@ const TechStack = React.createClass({
       {logo: './public/images/tech-stack/logo_graphQL.svg',
        urlLink: 'http://graphql.org/'},
       {logo: './public/images/tech-stack/logo_gulp.svg',
-       urlLink: 'http://gulpjs.com/'},
+       urlLink: 'http://gulpjs.com/'}
     ]
     return (
         <div className='techStack-content-div'>
