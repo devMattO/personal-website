@@ -1,5 +1,5 @@
 const React = require('react')
-const TechStack = require('tech-stack')
+const TechStack = require('./tech-stack')
 
 const LandingAboutMe = React.createClass({
   render () {
