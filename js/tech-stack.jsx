@@ -14,7 +14,7 @@ const TechStack = React.createClass({
           <Header />
         </div>
         <div className='techStack-content-div'>
-          {logosAndLinks[0].logo}
+          <div className="tech-logos">{logosAndLinks.logo}</div>
         </div>
       </div>
     )

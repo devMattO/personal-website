@@ -1,4 +1,5 @@
 const React = require('react')
+const TechStack = require('tech-stack')
 
 const LandingAboutMe = React.createClass({
   render () {
@@ -10,6 +11,7 @@ const LandingAboutMe = React.createClass({
           <p className='LAM-text'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.
           </p>
+          <TechStack />
         </div>
       </div>
     )
