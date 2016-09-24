@@ -95,45 +95,20 @@ body{
   display: flex;
   flex-flow: row wrap;
   height: 40px;
+  background-color: rgb(0,173,239);
 }
 
 .header-home-link{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-.pictures-link{
+.header-link{
   text-decoration: none;
-  color: black;
+  color: white;
   &:hover{
     text-decoration: underline;
   }
-}
-
-.tech-stack-link{
-  text-decoration: none;
-  color: black;
-  &:hover{
-    text-decoration: underline;
-  }
-}
-
-.work-link{
-  text-decoration: none;
-  color: black;
-  &:hover{
-    text-decoration: underline;
-  }
-
-}
-
-.contact-link{
-  text-decoration: none;
-  color: black;
-  &:hover{
-    text-decoration: underline;
-  }
-
 }
 
 .nav-bar{
@@ -157,7 +132,9 @@ body{
 }
 
 .nav-item{
-
+  & div{
+    color: white;
+  }
 }
 
 .LAM-content-div{
@@ -171,6 +148,8 @@ body{
 
 .LAM-header{
   font-size: 40px;
+  color: rgb(0,173,239);
+  margin-bottom: 7px;
 }
 
 .LAM-div{
@@ -185,19 +164,31 @@ body{
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  // border-top: 1px solid black;
+  cursor: pointer;
+}
+
+.techProfDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  height: 36px;
 }
 
 .imgTagLogos{
   width: 70px;
   max-height: 70px;
   margin: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.6;
   &:hover{
     -ms-transform: rotate(360deg); /* IE 9 */
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
+    opacity: 1;
   }
 }

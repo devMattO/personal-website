@@ -8,21 +8,21 @@ const Header = React.createClass({
         <div className='daHeader'>
           <div className='brand'>
             <Link to='/' className='header-home-link'>
-              <h1 className='header'>>devmatto</h1>
+              <h1 className='header'>devmatto</h1>
             </Link>
           </div>
           <div className='nav-bar'>
             <div className='nav-item'>
-              <Link to='/work' className='work-link'>Work</Link>
+              <Link to='/work' className='header-link'>Work</Link>
             </div>
             <div className='nav-item'>
-              <Link to='/tech-stack' className='tech-stack-link'>Tech Stack</Link>
+              <Link to='/tech-stack' className='header-link'>Tech Stack</Link>
             </div>
             <div className='nav-item'>
-              <Link to='/pictures' className='pictures-link'>Pictures</Link>
+              <Link to='/pictures' className='header-link'>Pictures</Link>
             </div>
             <div className='nav-item'>
-              <Link to='/contact' className='contact-link'>Contact</Link>
+              <Link to='/contact' className='header-link'>Contact</Link>
             </div>
           </div>
         </div>
