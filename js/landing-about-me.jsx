@@ -22,6 +22,7 @@ const LandingAboutMe = React.createClass({
           </div>
           <TechStack />
         </div>
+        <div className="wave2"></div>
       </div>
     )
   }
