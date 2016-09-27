@@ -10,12 +10,12 @@ const Contact = React.createClass({
           <Header />
         </div>
         <div className='form-div'>
-          <form className='contact-form' action='/submit/:mail'>
+          <form className='contact-form' action='/contact' method='get' >
             <div className='contact-title'><h1 className='LAM-header'>Contact</h1></div>
-            <input type='text' placeholder='Name' />
-            <input type='text' name='email' placeholder='Youremail@address.com' />
-            <input type='text' placeholder='Subject' />
-            <textarea type='text' rows="4" cols="50" name="comment" form="usrform" placeholder='Enter text here...'></textarea>
+            <input type='text' name='sender-name' placeholder='Name' />
+            <input className='mail' type='text' name='email' placeholder='YourEmail@address.com' />
+            <input type='text' name='mail-subject' placeholder='Subject' />
+            <textarea type='text' rows="4" cols="50" name="mail-body" placeholder='Enter text here...'></textarea>
             <input type='submit' value='Submit' />
           </form>
         </div>
