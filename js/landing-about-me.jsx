@@ -5,6 +5,7 @@ const LandingAboutMe = React.createClass({
   render () {
     return (
       <div className='LAM-content-div'>
+        <img src="./public/images/Matt.jpg" className='matt-headshot' />
         <h1 className='LAM-header'>Matt Olsen</h1>
         <h1 className='LAM-header-desc'>Full-Stack JavaScript Developer | Honolulu, HI</h1>
         <div className='LAM-div'>
@@ -22,7 +23,6 @@ const LandingAboutMe = React.createClass({
           </div>
           <TechStack />
         </div>
-        <div className="wave2"></div>
       </div>
     )
   }

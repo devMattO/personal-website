@@ -26,7 +26,6 @@ const Header = React.createClass({
             </div>
           </div>
         </div>
-        <img src="./public/images/matt-cover.jpg" className='cover-image' />
       </div>
     )
   }
