@@ -97,6 +97,10 @@ body{
   margin-left: 5%;
 }
 
+.header{
+  width: 100%;
+}
+
 .daHeader{
   display: flex;
   flex-flow: row wrap;
@@ -109,6 +113,8 @@ body{
   height: 20%;
   width: 20%;
   border-radius: 130px;
+  margin-bottom: 20px;
+  border: 1px solid black;
 }
 
 .header-home-link{
@@ -174,6 +180,10 @@ body{
   width: 60%;
   margin-top: 3%;
   flex-direction: column;
+}
+
+.LAM-text {
+  line-height: 150%;
 }
 
 .tech-logos{
