@@ -8,7 +8,7 @@ const Header = React.createClass({
         <div className='daHeader'>
           <div className='brand'>
             <Link to='/' className='header-home-link'>
-              <h1 className='header'>devmatto</h1>
+              <h1 className='extremeHeader'>devmatto</h1>
             </Link>
           </div>
           <div className='nav-bar'>
