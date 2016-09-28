@@ -15,7 +15,11 @@
   height: 270px;
   margin: 10px;
   border-radius: 10px;
+  border: 1px solid black;
+  -webkit-transition: box-shadow 250ms; /* Safari */
+  transition: box-shadow 250ms;
   &:hover{
+    border: 0px;
     -webkit-box-shadow: 10px 10px 56px 0px rgb(0,173,239);
     -moz-box-shadow: 10px 10px 56px 0px rgb(0,173,239);
     box-shadow: 10px 10px 56px 0px rgb(0,173,239);
@@ -39,6 +43,18 @@
 .work-desc{
   line-height: 150%;
 }
+
+.work-title-header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  & h1{
+    font-size: 48px;
+  }
+}
+
 
 @media only screen and (max-width: 800px) {
   .work-div{

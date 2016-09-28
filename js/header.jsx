@@ -13,13 +13,13 @@ const Header = React.createClass({
           </div>
           <div className='nav-bar'>
             <div className='nav-item'>
+              <Link to='/' className='header-link'>Home</Link>
+            </div>
+            <div className='nav-item'>
               <Link to='/work' className='header-link'>Work</Link>
             </div>
             <div className='nav-item'>
-              <Link to='/tech-stack' className='header-link'>Tech Stack</Link>
-            </div>
-            <div className='nav-item'>
-              <Link to='/pictures' className='header-link'>Pictures</Link>
+              <Link to='/resume' className='header-link'>Resume</Link>
             </div>
             <div className='nav-item'>
               <Link to='/contact' className='header-link'>Contact</Link>
