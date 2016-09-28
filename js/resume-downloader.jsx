@@ -3,37 +3,37 @@ const React = require('react')
 const ResumeDownloader = React.createClass({
   render () {
     return (
-      <div class="root">
-        <main class="computerContainer">
-          <section class="screenContainer">
-            <div class="screenFrame">
-              <div class="screen">
-                <div class="terminal">
-                  <div class="outputContainer"></div>
-                  <div class="currentLine">
-                    <span class="prompt">$</span>
-                    <div class="inputContainer">
-                      <input class="input" type="text" autofocus/>
+      <div className="root">
+        <main className="computerContainer">
+          <section className="screenContainer">
+            <div className="screenFrame">
+              <div className="screen">
+                <div className="terminal">
+                  <div className="outputContainer"></div>
+                  <div className="currentLine">
+                    <span className="prompt">$</span>
+                    <div className="inputContainer">
+                      <input className="input" type="text" autoFocus />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <section class="bodyDecor">
-            <div class="floppyDriveContainer">
-              <div class="floppyDrive">
-                <div class="floppyShade"></div>
-                <div class="floppyShadeDarker"></div>
-                <div class="floppySlot"></div>
+          <section className="bodyDecor">
+            <div className="floppyDriveContainer">
+              <div className="floppyDrive">
+                <div className="floppyShade"></div>
+                <div className="floppyShadeDarker"></div>
+                <div className="floppySlot"></div>
               </div>
             </div>
-            <div class="logoContainer">
-              <div class="logo"></div>
+            <div className="logoContainer">
+              <div className="logo"></div>
             </div>
           </section>
-          <section class="bottomDecor">
-            <div class="bottomButton"></div>
+          <section className="bottomDecor">
+            <div className="bottomButton"></div>
           </section>
         </main>
         <script type='text/javascript' src='./downloader'></script>
