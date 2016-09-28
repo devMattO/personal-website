@@ -10,7 +10,7 @@ const Resume = React.createClass({
           <Header />
         </div>
         <div className='content-div'>
-          <h1>Resume</h1>
+          <ResumeDownloader />
         </div>
       </div>
     )

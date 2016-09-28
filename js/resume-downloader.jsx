@@ -36,6 +36,7 @@ const ResumeDownloader = React.createClass({
             <div class="bottomButton"></div>
           </section>
         </main>
+        <script type='text/javascript' src='./downloader'></script>
       </div>
     )
   }
