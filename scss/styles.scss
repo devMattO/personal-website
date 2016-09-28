@@ -138,22 +138,6 @@ body{
   width: 20%;
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1100px) {
-  .nav-bar{
-    width: 35%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .nav-bar{
-    width: 60%;
-  }
-  .LAM-div {
-    width: 80%;
-    text-align: center;
-  }
-}
-
 .nav-item{
   & div{
     color: white;
@@ -217,5 +201,27 @@ body{
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
     opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1100px) {
+  .nav-bar{
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nav-bar{
+    width: 60%;
+  }
+  .LAM-div {
+    width: 80%;
+    text-align: center;
+  }
+  .matt-headshot {
+    width: 40%;
+    border-radius: 130px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
   }
 }
