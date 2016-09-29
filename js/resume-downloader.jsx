@@ -1,10 +1,11 @@
 const React = require('react')
+const { object } = React.PropTypes
 
 const ResumeDownloader = React.createClass({
   render () {
     return (
       <div className="root">
-        <main className="computerContainer">
+        <div className="computerContainer">
           <section className="screenContainer">
             <div className="screenFrame">
               <div className="screen">
@@ -35,7 +36,7 @@ const ResumeDownloader = React.createClass({
           <section className="bottomDecor">
             <div className="bottomButton"></div>
           </section>
-        </main>
+        </div>
       </div>
     )
   }
