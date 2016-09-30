@@ -22,7 +22,7 @@ Router.get('/v3/mail/send', (req,res)=>{
   var sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
   var request = sg.emptyRequest({
     method: 'POST',
-    path: '/v3/mail/send',
+    path: 'https://api.sendgrid.com/v3/mail/send',
     body: mail.toJSON(),
   });
 

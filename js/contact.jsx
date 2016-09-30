@@ -24,15 +24,22 @@ const Contact = React.createClass({
   },
   handleSubmit: function(e) {
     e.preventDefault();
-    var senderName = this.state.senderName.trim();
-    var senderEmail = this.state.senderEmail.trim();
-    var mailSubject = this.state.mailSubject.trim();
-    var mailBody = this.state.mailBody.trim();
-    if (!senderName || !senderEmail || !mailSubject || !mailBody)) {
+    let senderName = this.state.senderName.trim();
+    let senderEmail = this.state.senderEmail.trim();
+    let mailSubject = this.state.mailSubject.trim();
+    let mailBody = this.state.mailBody.trim();
+    if (!senderName || !senderEmail || !mailSubject || !mailBody) {
       return;
     }
-    // TODO: send request to the server
-    this.setState({author: '', text: ''});
+    const req = new XMLHttpRequest()
+    req.open('POST', 'https://api.sendgrid.com/v3/mail/send', true)
+    req.setRequestHeader("Content-Type", "application/json")
+    req.send(JSON.stringify({
+      "from_email": senderEmail,
+      "to_email": "olsen_matthew@yahoo.com",
+      "subject": mailSubject,
+      "content": mailBody
+    })
   },
   render () {
     return (
@@ -41,7 +48,7 @@ const Contact = React.createClass({
           <Header />
         </div>
         <div className='form-div'>
-          <form className='contact-form' onSubmit={handleSubmit} >
+          <form className='contact-form' onSubmit={this.handleSubmit} >
             <div className='contact-title'><h1 className='LAM-header'>Contact</h1></div>
             <input className='contact-input' value={this.state.senderName} onChange={this.handleSenderName} type='text' name='sender-name' placeholder='Name' />
             <input className='contact-input' value={this.state.senderEmail} onChange={this.handleEmailSender} type='text' name='email' placeholder='YourEmail@address.com' />
