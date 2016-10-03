@@ -23,23 +23,18 @@ const Contact = React.createClass({
     this.setState({mailBody: e.target.value});
   },
   handleSubmit: function(e) {
-    e.preventDefault();
-    let senderName = this.state.senderName.trim();
-    let senderEmail = this.state.senderEmail.trim();
-    let mailSubject = this.state.mailSubject.trim();
-    let mailBody = this.state.mailBody.trim();
-    if (!senderName || !senderEmail || !mailSubject || !mailBody) {
-      return;
-    }
-    const req = new XMLHttpRequest()
-    req.open('POST', 'https://api.sendgrid.com/v3/mail/send', true)
+    e.preventDefault()
+    const req = new XMLHttpRequest();
+    req.addEventListener('load', (res) => {
+        if(JSON.parse(res.currentTarget.responseText)){
+        console.log('it worked')
+      }
+    })
+    req.open('POST', '/#/contact/contact-me', true)
     req.setRequestHeader("Content-Type", "application/json")
     req.send(JSON.stringify({
-      "from_email": senderEmail,
-      "to_email": "olsen_matthew@yahoo.com",
-      "subject": mailSubject,
-      "content": mailBody
-    })
+      "key": 'value from header',
+    }))
   },
   render () {
     return (
