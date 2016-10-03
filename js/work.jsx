@@ -25,7 +25,7 @@ const Work = React.createClass({
             <h1>Pixel-Painter</h1>
             <p className='work-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.</p>
           </div>
-          <a href='http://xdisruptarmyx.herokuapp.com/'><img src="./public/images/disruptArmy.png" className='work-img' /></a>
+          <a href='https://docs.google.com/uc?export=download&id=0B0LnbFq3ifAhNWRodVFxZTlhXzQ'><img src="./public/images/disruptArmy.png" className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>Disrupt Army Hackathon</h1>
             <p className='work-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.</p>
