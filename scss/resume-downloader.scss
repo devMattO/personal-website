@@ -131,7 +131,7 @@
 .terminal {
   height: 245px;
   flex: 0 0 95%;
-  overflow-y: auto;
+  overflow: hidden;
   font-size: 12px;
 }
 .terminal::-webkit-scrollbar {
@@ -186,6 +186,17 @@
   white-space: pre-wrap;
 }
 
-.outputContainer {
-  margin: 0 10px;
+.outputContainer{
+    border: none;
+    padding: 0;
+    margin: 0px 17px 15px;
+    background: #222;
+    color: #00fe00;
+    width: 99%;
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 2px;
+    & p{
+      margin-left: 15px;
+    }
 }
