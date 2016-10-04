@@ -13,22 +13,22 @@ const Work = React.createClass({
           <a href='http://www.newcoders.xyz'><img src="./public/images/new-coders.png" className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>New Coders</h1>
-            <p className='work-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.</p>
+            <p className='work-desc'>This is a single-page web application (SPA) that we created for new coders to find information on other people who are also just beginning programming. This was completed with a team of four people. My contributions included the entire third page development and styling, and implementing a GraphQL server that anyone can use to easily receive specific data from the survey. Tech Stack: JavaScript, Angular 1.5, Express, C3, Sequelize, GraphQL, PostgreSQL, and Sass.</p>
           </div>
-          <a href='expressgallery.herokuapp.com'><img src="./public/images/express-gallery.png" className='work-img' /></a>
+          <a href='https://expressgallery.herokuapp.com'><img src="./public/images/express-gallery.png" className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>Express-Gallery</h1>
-            <p className='work-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.</p>
+            <p className='work-desc'>This is a custom built Content Management System (CMS). Users can register with our site and create posts much like Tumblr or Instagram. Tech Stack: JavaScript, DOM, Node.js, PostgreSQL, Sequelize, Express, Jade, Sass, Passport, Gulp, BCrypt</p>
           </div>
           <a href='http://pixelmaker.devleague.com/'><img src="./public/images/pixel-painter.png" className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>Pixel-Painter</h1>
-            <p className='work-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.</p>
+            <p className='work-desc'>This project used an Arduino Uno, LED Matrix, and a Raspberry Pi to link real time updates on our web app to the hardware. More on this entire project <a href='https://medium.com/@mattolsen/honolulu-mini-maker-faire-2016-a209e1ded866#.hggsfuyor'>here</a></p>
           </div>
-          <a href='https://docs.google.com/uc?export=download&id=0B0LnbFq3ifAhNWRodVFxZTlhXzQ'><img src="./public/images/disruptArmy.png" className='work-img' /></a>
+          <a href='http://xdisruptarmyx.herokuapp.com/'><img src="./public/images/disruptArmy.png" className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>Disrupt Army Hackathon</h1>
-            <p className='work-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi tempore earum praesentium quidem nostrum placeat, ipsum, similique nulla repellat ducimus quis, fuga doloremque, veniam odit maiores totam repellendus aliquam.</p>
+            <p className='work-desc'>This hackathon challenged us to visualize the schedules of top ranking Army generals. The goal was to make a single page application that was easy to interact with so that the Four Star General would be able to analyze where his generals are spending their time and where adjustments could be made in times of crisis or emergency. I wrote an algorithm that takes in all of the data and splits it into different charts by general. As opposed to other teams, our solution is scalable and ready for more than just sample data. Our tech stack included React, Express.js, Highcharts, and Webpack.</p>
           </div>
         </div>
       </div>
