@@ -205,6 +205,18 @@
   display: none;
 }
 
+.download-output{
+  border: none;
+  padding: 0;
+  background: #222;
+  width: 99%;
+  font-size: 12px;
+  margin-left: 18px;
+  margin-top: 8px;
+  color: #00fe00;
+  font-family: monospace;
+}
+
 @media only screen and (max-width: 800px) {
   .resume-too-small-container{
     display: flex;

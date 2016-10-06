@@ -9,7 +9,7 @@ const ResumeDownloader = React.createClass({
       if (this.state.text === 'download resume' || '"download resume"' || "'download resume'"){
         window.location.href = 'https://docs.google.com/uc?export=download&id=0B0LnbFq3ifAhNWRodVFxZTlhXzQ';
       }
-      this.setState({text: ''});
+      this.setState({text: '', output: 'downloading...'});
   },
   handleChange: function(evt) {
       this.setState({text: evt.target.value});
@@ -34,6 +34,7 @@ const ResumeDownloader = React.createClass({
                       <input value={this.state.text} onChange={this.handleChange} ref="userInput" onKeyDown={this.handleKeyDown} className="input" type="text" autoFocus />
                     </div>
                   </div>
+                  <div className='download-output'>{this.state.output}</div>
                 </div>
               </div>
             </div>
