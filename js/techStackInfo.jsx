@@ -1,20 +1,28 @@
 'use strict'
+const angular = require('../public/images/tech-stack/logo_angular.png')
+const bash = require('../public/images/tech-stack/logo_bash.png')
+const bootstrap = require('../public/images/tech-stack/logo_bootstrap.svg')
+const chai = require('../public/images/tech-stack/logo_chai.png')
+const d3 = require('../public/images/tech-stack/logo_d3.svg')
+const es6 = require('../public/images/tech-stack/logo_es6.svg')
+const express = require('../public/images/tech-stack/logo_express.png')
+
 
 const techStackInfo = () => {
   const techStackList = [
-        {logo: './public/images/tech-stack/logo_angular.png',
+        {logo: angular,
          urlLink: 'https://angularjs.org/'},
-        {logo: './public/images/tech-stack/logo_bash.png',
+        {logo: bash,
          urlLink: 'http://ohmyz.sh/'},
-        {logo: './public/images/tech-stack/logo_bootstrap.svg',
+        {logo: bootstrap,
          urlLink: 'http://getbootstrap.com/'},
-        {logo: './public/images/tech-stack/logo_chai.png',
+        {logo: chai,
          urlLink: 'http://chaijs.com/'},
-        {logo: './public/images/tech-stack/logo_d3.svg',
+        {logo: d3,
          urlLink: 'https://d3js.org/'},
-        {logo: './public/images/tech-stack/logo_es6.svg',
+        {logo: es6,
          urlLink: 'http://es6-features.org/'},
-        {logo: './public/images/tech-stack/logo_express.png',
+        {logo: express,
          urlLink: 'https://expressjs.com/'},
         {logo: './public/images/tech-stack/logo_git.png',
          urlLink: 'https://git-scm.com/'},

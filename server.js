@@ -6,7 +6,7 @@ const Router = express.Router()
 const webpack = require('webpack')
 const webpackDevMiddleware = require('webpack-dev-middleware')
 const webpackHotMiddleware = require('webpack-hot-middleware')
-const webpackConfig = require('./webpack.config.js')
+const webpackConfig = require('./webpack.config.prod.js')
 const compiler = webpack(webpackConfig)
 const bodyParser = require('body-parser')
 

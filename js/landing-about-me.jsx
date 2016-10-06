@@ -1,11 +1,12 @@
 const React = require('react')
 const TechStack = require('./tech-stack')
+const devmattoHeadshot = require('../public/images/Matt.jpg')
 
 const LandingAboutMe = React.createClass({
   render () {
     return (
       <div className='LAM-content-div'>
-        <img src="./public/images/Matt.jpg" className='matt-headshot' />
+        <img src={devmattoHeadshot} className='matt-headshot' />
         <h1 className='LAM-header'>Matt Olsen</h1>
         <h1 className='LAM-header-desc'>Full-Stack JavaScript Developer | Honolulu, HI</h1>
         <div className='LAM-div'>
