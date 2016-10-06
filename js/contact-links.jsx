@@ -6,6 +6,7 @@ const logo_instagram = require('../public/images/contact/instagram.png')
 const logo_linkedin = require('../public/images/contact/linkedin.png')
 const logo_medium = require('../public/images/contact/medium.png')
 const logo_twitter = require('../public/images/contact/twitter.png')
+const placeIt = require('../public/images/placeit.jpg')
 
 
 const social_media_links = [
@@ -30,10 +31,13 @@ const ContactLinks = React.createClass({
         <div className='header-div'>
           <Header />
         </div>
+        <div className='contact-page-picture'>
+          <img src={placeIt} className='cpp-img' />
+        </div>
         <div className='contact-links-div'>
           {social_media_links.map((el, index)=>{
               return (
-                <a href={el.urlLink} key={index}>
+                <a href={el.urlLink} target="_blank" key={index}>
                   <img src={el.logo} className='socialMediaContact' />
                 </a>
               )

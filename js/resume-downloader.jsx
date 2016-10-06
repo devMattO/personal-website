@@ -6,18 +6,35 @@ const ResumeDownloader = React.createClass({
       return {text: ''};
   },
   inputSubmit: function() {
-      if (this.state.text === 'download resume' || '"download resume"' || "'download resume'"){
+      let that = this;
+      if (this.state.text === 'download resume'){
         window.location.href = 'https://docs.google.com/uc?export=download&id=0B0LnbFq3ifAhNWRodVFxZTlhXzQ';
+        this.setState({text: ''});
+        this.setState({output: 'downloading.'});
+        setTimeout(function(){
+          that.setState({output: 'downloading..'})
+        }, 1000);
+        setTimeout(function(){
+          that.setState({output: 'downloading...'})
+        }, 2000);
+        setTimeout(function(){
+          that.setState({output: ''})
+        }, 3000);
+      }else{
+        this.setState({output: 'invalid command'});
+        setTimeout(function(){
+          that.setState({output: ''});
+          that.setState({text: ''});
+        }, 3000);
       }
-      this.setState({text: '', output: 'downloading...'});
   },
   handleChange: function(evt) {
       this.setState({text: evt.target.value});
   },
   handleKeyDown: function(evt) {
-      if (evt.keyCode == 13 ) {
-          return this.inputSubmit();
-      }
+    if (evt.keyCode == 13 ) {
+      return this.inputSubmit();
+    }
   },
   render () {
     return (
