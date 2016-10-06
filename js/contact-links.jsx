@@ -1,18 +1,25 @@
 const React = require('react')
 const Header = require('./header')
+const logo_email = require('../public/images/contact/email.png')
+const logo_github = require('../public/images/contact/github-logo.png')
+const logo_instagram = require('../public/images/contact/instagram.png')
+const logo_linkedin = require('../public/images/contact/linkedin.png')
+const logo_medium = require('../public/images/contact/medium.png')
+const logo_twitter = require('../public/images/contact/twitter.png')
+
 
 const social_media_links = [
-  {logo: './public/images/contact/email.png',
+  {logo: logo_email,
    urlLink: 'mailto:olsen_matthew@yahoo.com'},
-  {logo: './public/images/contact/github-logo.png',
+  {logo: logo_github,
    urlLink: 'https://github.com/devMattO'},
-  {logo: './public/images/contact/instagram.png',
+  {logo: logo_instagram,
    urlLink: 'https://www.instagram.com/devmatto/'},
-  {logo: './public/images/contact/linkedin.png',
+  {logo: logo_linkedin,
    urlLink: 'https://www.linkedin.com/in/devmatto'},
-  {logo: './public/images/contact/medium.png',
+  {logo: logo_medium,
    urlLink: 'https://medium.com/@mattolsen'},
-  {logo: './public/images/contact/twitter.png',
+  {logo: logo_twitter,
    urlLink: 'https://twitter.com/devmatto'}
 ]
 
