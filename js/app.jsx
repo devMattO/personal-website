@@ -7,6 +7,7 @@ const Resume = require('./resume')
 const ContactLinks = require('./contact-links')
 import style from '../scss/styles.scss'
 const { Router, Route, hashHistory } = require('react-router')
+import icoFile from '../favicon.ico'
 
 const App = React.createClass({
   render () {
