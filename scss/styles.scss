@@ -127,8 +127,10 @@ body{
 .header-link{
   text-decoration: none;
   color: white;
+  transition: all .2s ease-out;
   &:hover{
-    text-decoration: underline;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
   }
 }
 
