@@ -5,6 +5,8 @@ const newCoders = require('../public/images/new-coders.png')
 const expressGallery = require('../public/images/express-gallery.png')
 const pixelPainter = require('../public/images/pixel-painter.png')
 const disruptArmy = require('../public/images/disruptArmy.png')
+import HVM from '../public/images/hvm.png'
+import YA from '../public/images/YA.png'
 
 const Work = React.createClass({
   render () {
@@ -14,20 +16,34 @@ const Work = React.createClass({
           <Header />
         </div>
         <div className='work-div'>
-          <a href='http://www.newcoders.xyz'><img src={newCoders} className='work-img' /></a>
+          <a target="_blank" href='https://yasukoabeshima.com'><img src={YA} className='work-img' /></a>
+          <div className='img-desc-div'>
+            <h1>Yasuko Abeshima</h1>
+            <p className='work-desc'>
+              A single-page web application for an established watercolor artist from Manoa Valley, Oahu.
+              Designed, Developed and Deployed. <br />
+              Tech Stack: React, Express, NodeJS
+            </p>
+          </div>
+          <a target="_blank" href='https://highvoltagemedia.tv'><img src={HVM} className='work-img' /></a>
+          <div className='img-desc-div'>
+            <h1>High Votage Media</h1>
+            <p className='work-desc'> A single-page web application for an rising video production company. Designed, Developed and Deployed.<br /> Tech Stack: React, Express, NodeJS </p>
+          </div>
+          <a target="_blank" href='http://www.newcoders.xyz'><img src={newCoders} className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>New Coders</h1>
             <p className='work-desc'>This is a single-page web application (SPA) that we created for new coders to find information on other people who are also just beginning programming. This was completed with a team of four people. My contributions included the entire third page development and styling, and implementing a GraphQL server that anyone can use to easily receive specific data from the survey. Tech Stack: JavaScript, Angular 1.5, Express, C3, Sequelize, GraphQL, PostgreSQL, and Sass.</p>
           </div>
-          <a href='https://expressgallery.herokuapp.com'><img src={expressGallery} className='work-img' /></a>
+          <a target="_blank" href='https://expressgallery.herokuapp.com'><img src={expressGallery} className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>Express-Gallery</h1>
             <p className='work-desc'>This is a custom built Content Management System (CMS). Users can register with our site and create posts much like Tumblr or Instagram. Tech Stack: JavaScript, DOM, Node.js, PostgreSQL, Sequelize, Express, Jade, Sass, Passport, Gulp, BCrypt</p>
           </div>
-          <a href='http://pixelmaker.devleague.com/'><img src={pixelPainter} className='work-img' /></a>
+          <a target="_blank" href='http://pixelmaker.devleague.com/'><img src={pixelPainter} className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>Pixel-Painter</h1>
-            <p className='work-desc'>This project used an Arduino Uno, LED Matrix, and a Raspberry Pi to link real time updates on our web app to the hardware. More on this entire project <a href='https://medium.com/@mattolsen/honolulu-mini-maker-faire-2016-a209e1ded866#.hggsfuyor'>here</a></p>
+            <p className='work-desc'>This project used an Arduino Uno, LED Matrix, and a Raspberry Pi to link real time updates on our web app to the hardware. More on this entire project <a target="_blank" href='https://medium.com/@mattolsen/honolulu-mini-maker-faire-2016-a209e1ded866#.hggsfuyor'>here</a></p>
           </div>
           <a href='http://xdisruptarmyx.herokuapp.com/'><img src={disruptArmy} className='work-img' /></a>
           <div className='img-desc-div'>

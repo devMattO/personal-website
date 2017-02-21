@@ -8,11 +8,8 @@ const LandingAboutMe = React.createClass({
       <div className='LAM-content-div'>
         <img src={devmattoHeadshot} className='matt-headshot' />
         <h1 className='LAM-header'>Matt Olsen</h1>
-        <h1 className='LAM-header-desc'>Full-Stack JavaScript Developer | Honolulu, HI</h1>
+        <h1 className='LAM-header-desc'>Freelance Web Developer | Orange County, CA </h1>
         <div className='LAM-div'>
-          <p className='LAM-text'>
-            Thanks so much for checking out my web app! I built this in React and some other technologies used were Webpack, Sass, and Express.
-          </p><br />
           <p className='LAM-text'>
             I am a passionate developer who enjoys building fast, responsive, and powerful websites. I am currently searching for a team that can help me grow as a developer while I can contribute my skills to the overall goal. I have the burning desire to persevere through these challenges and have my work live up to my obsessive, pixel-pushing standards.
             So why was I so drawn to programming? I think it’s because I love the challenge. I want to prove myself. I want to get better.
