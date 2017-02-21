@@ -1,5 +1,5 @@
 const React = require('react')
-const Header = require('./header')
+const WorkHeader = require('./work-header')
 const { Link } = require('react-router')
 const newCoders = require('../public/images/new-coders.png')
 const expressGallery = require('../public/images/express-gallery.png')
@@ -13,7 +13,7 @@ const Work = React.createClass({
     return (
       <div className='app-container'>
         <div className='header-div'>
-          <Header />
+          <WorkHeader />
         </div>
         <div className='work-div'>
           <a target="_blank" href='https://yasukoabeshima.com'><img src={YA} className='work-img' /></a>

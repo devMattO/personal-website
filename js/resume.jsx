@@ -1,5 +1,5 @@
 const React = require('react')
-const Header = require('./header')
+const ResumeHeader = require('./resume-header')
 const ResumeDownloader = require('./resume-downloader')
 const MobileResumeMessage = require('./resume-pdf')
 
@@ -8,7 +8,7 @@ const Resume = React.createClass({
     return (
       <div className='app-container'>
         <div className='header-div'>
-          <Header />
+          <ResumeHeader />
         </div>
         <div className='content-div'>
           <ResumeDownloader />

@@ -1,5 +1,5 @@
 const React = require('react')
-const Header = require('./header')
+const ContactHeader = require('./contact-header')
 const logo_email = require('../public/images/contact/email.png')
 const logo_github = require('../public/images/contact/github-logo.png')
 const logo_instagram = require('../public/images/contact/instagram.png')
@@ -29,7 +29,7 @@ const ContactLinks = React.createClass({
     return (
       <div className='app-container'>
         <div className='header-div'>
-          <Header />
+          <ContactHeader />
         </div>
         <div className='contact-page-picture'>
           <img src={placeIt} className='cpp-img' />

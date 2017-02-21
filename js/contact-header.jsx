@@ -1,7 +1,7 @@
 const React = require('react')
 const { Link } = require('react-router')
 
-const Header = React.createClass({
+const ContactHeader = React.createClass({
   render () {
     return (
       <div className='header'>
@@ -13,16 +13,16 @@ const Header = React.createClass({
           </div>
           <div className='nav-bar'>
             <div className='nav-item'>
-              <Link to='/' className='header-link' id='header-link-home' >Home</Link>
+              <Link to='/' className='header-link'>Home</Link>
             </div>
             <div className='nav-item'>
-              <Link to='/work' className='header-link'>Work</Link>
+              <Link to='/work' className='header-link' >Work</Link>
             </div>
             <div className='nav-item'>
               <Link to='/resume' className='header-link'>Resume</Link>
             </div>
             <div className='nav-item'>
-              <Link to='/contact' className='header-link'>Contact</Link>
+              <Link to='/contact' className='header-link' id="header-link-contact">Contact</Link>
             </div>
           </div>
         </div>
@@ -31,4 +31,4 @@ const Header = React.createClass({
   }
 })
 
-module.exports = Header
+module.exports = ContactHeader
