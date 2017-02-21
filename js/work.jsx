@@ -27,7 +27,7 @@ const Work = React.createClass({
           </div>
           <a target="_blank" href='https://highvoltagemedia.tv'><img src={HVM} className='work-img' /></a>
           <div className='img-desc-div'>
-            <h1>High Votage Media</h1>
+            <h1>High Voltage Media</h1>
             <p className='work-desc'> A single-page web app for an rising video production company. Designed, Developed and Deployed.<br /> Tech Stack: React, Express, NodeJS </p>
           </div>
           <a target="_blank" href='http://www.newcoders.xyz'><img src={newCoders} className='work-img' /></a>
