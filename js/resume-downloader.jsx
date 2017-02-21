@@ -8,7 +8,7 @@ const ResumeDownloader = React.createClass({
   inputSubmit: function() {
       let that = this;
       if (this.state.text === 'download resume'){
-        window.location.href = 'https://docs.google.com/uc?export=download&id=0B0LnbFq3ifAhNWRodVFxZTlhXzQ';
+        window.location.href = 'https://docs.google.com/uc?export=download&id=0B0LnbFq3ifAhajg4eDFVbkd3QWM';
         this.setState({text: ''});
         this.setState({output: 'downloading.'});
         setTimeout(function(){

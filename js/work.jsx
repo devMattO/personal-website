@@ -20,7 +20,7 @@ const Work = React.createClass({
           <div className='img-desc-div'>
             <h1>Yasuko Abeshima</h1>
             <p className='work-desc'>
-              A single-page web application for an established watercolor artist from Manoa Valley, Oahu.
+              A single-page web app for an established watercolor artist from Manoa Valley, Oahu.
               Designed, Developed and Deployed. <br />
               Tech Stack: React, Express, NodeJS
             </p>
@@ -28,12 +28,12 @@ const Work = React.createClass({
           <a target="_blank" href='https://highvoltagemedia.tv'><img src={HVM} className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>High Votage Media</h1>
-            <p className='work-desc'> A single-page web application for an rising video production company. Designed, Developed and Deployed.<br /> Tech Stack: React, Express, NodeJS </p>
+            <p className='work-desc'> A single-page web app for an rising video production company. Designed, Developed and Deployed.<br /> Tech Stack: React, Express, NodeJS </p>
           </div>
           <a target="_blank" href='http://www.newcoders.xyz'><img src={newCoders} className='work-img' /></a>
           <div className='img-desc-div'>
             <h1>New Coders</h1>
-            <p className='work-desc'>This is a single-page web application (SPA) that we created for new coders to find information on other people who are also just beginning programming. This was completed with a team of four people. My contributions included the entire third page development and styling, and implementing a GraphQL server that anyone can use to easily receive specific data from the survey. Tech Stack: JavaScript, Angular 1.5, Express, C3, Sequelize, GraphQL, PostgreSQL, and Sass.</p>
+            <p className='work-desc'>This is a single-page web app (SPA) that we created for new coders to find information on other people who are also just beginning programming. This was completed with a team of four people. My contributions included the entire third page development and styling, and implementing a GraphQL server that anyone can use to easily receive specific data from the survey. Tech Stack: JavaScript, Angular 1.5, Express, C3, Sequelize, GraphQL, PostgreSQL, and Sass.</p>
           </div>
           <a target="_blank" href='https://expressgallery.herokuapp.com'><img src={expressGallery} className='work-img' /></a>
           <div className='img-desc-div'>
